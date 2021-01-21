@@ -15,4 +15,6 @@ RUN git clone https://github.com/trimino/simple_cal.git
 
 WORKDIR /simple_cal
 
+RUN chomd +x runme.sh
+
 CMD ["/bin/bash"]
